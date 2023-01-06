@@ -1,0 +1,144 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+ <head> 
+    <title> Nikhil Segu</title>
+    <link type="text/css" href="{% static 'expensify/css/home_style.css' %}" rel="stylesheet"/>
+</head>
+<body>
+	<div class = "container">
+		<header>
+			<div class="header_right">
+		     <ul>
+			    <li><a href="{% url 'home' %}" title="Home">HOME </a></li>
+				<li><a href="{% url 'aboutContent' %}" title="About">ABOUT </a></li>
+				<li><a href="#" class="signup"> LogIn </a></li>
+			 </ul>
+			</div>
+		</header>
+	
+		
+		<section class="banner_top">
+			<h4>Hello <b> Expensify!</b></h4>
+			
+		</section>
+	</div>	
+	<section class="banner">
+			
+	</section>	
+	
+	
+	<section class="body_part_1">
+		<div class="container">
+			<div class="coding">
+				<h3>Coding History</h3>
+				<p>1 Silver Medals and 2 Bronze Medal at Hackerrank Competition</p>
+			</div>
+			<div class="bpart_1_bottom">
+				<div class="bpart_1_left">
+					<img src= "{% static 'expensify/images/expensifyCoding_.jfif' %}" alt="b1"/>
+				</div>
+				<div class="bpart_1_right">
+					<img src=" {% static 'expensify/images/dash_line.png' %}" />
+					<h4>Coding Experience </br></h4>
+					<p>Started in 2016, I used Java as my primary language till 2018 later,</br>
+						I switched to Python when I joined Applied Materials. I participated</br>
+						in the coding competitions at various platforms such as Hackerrank,</br>
+						Leetcode, Google Code Jam, TCS Code Vita and more. Achieved </br>
+						medals and particpation certificates on various online courses</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section class="body_part_2">
+	<div class="top">
+		<div class="container">
+		<div class="b2_left">
+			
+				<div class="b2_list">
+					<div class="b2_list_left">
+						<img src=" {% static 'expensify/images/longTermGoal_.png' %}"/>
+					</div>
+					<div class="b2_list_right">
+						<h4>Long Term Goal</h4>
+						<p>I wanted to be an Enterprenuer in Software field </br>
+							I'm sure that I can learn and work for that to acheive </p>
+					</div>
+				</div>
+				
+				<div class="b2_list">
+					<div class="b2_list_left">
+						<img src=" {% static 'expensify/images/expensifyLogo.png' %}"/>
+					</div>
+					<div class="b2_list_right">
+						<h4>How Expensify helps</h4>
+						<p>Based on my research, Expensify using cutting edge technologies </br> 
+						like Block  chain, PHP, Java, React, Django and more to automate</br>
+						expense managemet system. Besides this, Expensify have inclusive</br>
+						culture, easily approachable to higher management and flat hierarchy.</br>
+						By having all these, Expensify is promising the future of the employee </br> 
+						skills and have more opportunities to learn</p>
+					</div>
+				</div>
+				
+				<div class="b2_list">
+					<div class="b2_list_left">
+						<img src="{% static 'expensify/images/expensifyHear.png' %}"/>
+					</div>
+					<div class="b2_list_right">
+						<h4>How did I hear</h4>
+						<p>Levels.fyi </br>
+							</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="b2_right">
+				<img src="{% static 'expensify/images/NorthOne_expensify.png' %}"/>
+		</div>
+
+		<!--
+		<div class="container">
+		 <div class="b2_content_2">
+			<h4>This Webpage is designed for <b> Expensify </b> Interview Process</h4>
+			<h6>It is an unique way of representing my profile for interview process</br> 
+				Hope you like this simple webpage!</h6>
+		 </div>
+		</div>
+	</section>
+	
+	
+	
+	<div class="container">
+		 <div class="b2_content_2">
+			<h4>Textbox to Comment</h4>
+			<h6>It is an unique way of representing my profile for interview process</br> 
+				Hope you like this simple webpage!</h6>
+		 </div>
+	</div>
+		
+	-->
+
+	<footer>
+			<div class="container">
+				<div class="footer_top">
+					<div class="b2_content_2">
+						<h4>This Webpage is designed for <b> Expensify </b> Interview Process</h4>
+						<h6>It is an unique way of representing my profile for interview process</br> 
+							Hope you like this simple webpage!</h6>
+					</div>
+				</div>
+				
+				<div class="footer_bottom">
+					<p>&copy 2022 NikhilSegu.All rights reserved.</p>
+				</div>
+				
+			</div>
+			
+	</footer>
+</body>
+</html>
